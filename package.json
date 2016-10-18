@@ -1,0 +1,32 @@
+{
+  "name": "sails-api-rest",
+  "version": "0.10.4",
+  "description": "sails-api-rest adapter for Sails / Waterline",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wvezey/sails-api-rest.git"
+  },
+  "keywords": [
+    "sails-api-rest",
+    "adapter",
+    "sails",
+    "waterline",
+    "sails.js",
+    "plugin"
+  ],
+  "author": "Bill Vezey",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "lodash": "^4.10.0",
+    "superagent": "^1.8.3"
+  },
+  "waterlineAdapter": {
+    "type": "sails-api-rest",
+    "interfaces": [
+      "semantic"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
